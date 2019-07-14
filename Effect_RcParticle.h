@@ -23,6 +23,7 @@ public:
 	virtual void Render_Object(void) override;
 	virtual void Update_Matrix() {};
 	//Branch2
+	//Branch3
 
 private:
 	HRESULT Add_Component(const _tchar* szTexTag);
