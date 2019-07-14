@@ -22,7 +22,8 @@ public:
 	virtual void Deactivate_Effect();
 	virtual void Render_Object(void) override;
 	virtual void Update_Matrix() {};
-
+	//Branch2
+	//Branch3
 
 private:
 	HRESULT Add_Component(const _tchar* szTexTag);
@@ -53,6 +54,7 @@ private:
 	_bool				m_bLoopParticle = false;
 	_bool				m_bLoopEnd = false;
 	_uint				m_dwAliveCnt = 0;
+	int i;
 		
 
 public:
